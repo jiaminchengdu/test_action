@@ -1,5 +1,4 @@
 name: 'Hello World Docker Action'
-on: 
   description: 'Say hello to a user or the world.'
   inputs:
     who-to-greet:
