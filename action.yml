@@ -19,3 +19,10 @@ runs:
   image: Dockerfile
   env:
     INPUT_WHO_TO_GREET: ${{ inputs.who-to-greet }}
+
+workflow_dispatch:
+  inputs:
+    environment:
+      description: 'Environment to deploy to'
+      type: environment
+      required: true
